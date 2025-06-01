@@ -9,14 +9,14 @@
 
 .no-result div {
   font-size: 28px;
-  color: #212121;
+  color: #333333;
   font-weight: bold;
   margin-top: 20px;
 }
 
 .no-result p {
   font-size: 22px;
-  color: #878787;
+  color: #888888;
   font-weight: 500;
 }
 

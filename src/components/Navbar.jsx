@@ -37,7 +37,7 @@ const Navbar = ({ onSearch, totalProductsAddedToCart }) => {
 
       <div className="category-dropdown">
         <button className="category-button" onMouseOver={() => setIsOpen(true)}>
-          Categories
+          Category
           <svg width="18" height="18" viewBox="0 0 20 20" fill="currentColor">
             <path d="M5 7l5 5 5-5H5z" />
           </svg>

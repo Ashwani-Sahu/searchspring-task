@@ -1,0 +1,27 @@
+.no-result {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.no-result img {
+  width: 200px;
+}
+
+.no-result div {
+  font-size: 28px;
+  color: #212121;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.no-result p {
+  font-size: 22px;
+  color: #878787;
+  font-weight: 500;
+}
+
+.no-result p span {
+  color: #0056b3;
+  font-weight: bold;
+  word-break: break-word;
+}

@@ -1,12 +1,36 @@
-# React + Vite
+# FashionFusion
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![image](https://github.com/user-attachments/assets/f3c0debf-002c-499c-a117-b34454ef1f68)
 
-Currently, two official plugins are available:
+This Searchspring project, called FashionFusion, is a simple search application implementing the Search API. Users can search for clothing and makeup items, and the results are displayed in a grid format. The app is also mobile responsive.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+# Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+[FashionFusion Demo](https://newfashionfusion.netlify.app/)
+
+# Technologies
+
+- React
+- Javascript
+- HTML5
+- CSS3
+
+
+# Features
+
+- Implements the Search API.
+- Uses Fetch API and Promises to make HTTP Requests to the Search API.
+- Search bar with search button to allow for custom user input.
+- A category dropdown is included with default search terms to add to the user experience.
+- After a request has been made, results are shown using CSS Grid.
+- Conditionals are put in place to:
+  - Prevent the previous buttons from displaying if previous page = 0 from the HTTP request.
+  - Prevent the next buttons from displaying if there are no pages left in the result.
+  - Handle searches with no results.
+  - Include a default image if an image is throwing a 404 from the API.
+  - Prevent MSRP from displaying if the MSRP is equal or less than the listed price.
+- "Add to cart" functionality that mimics adding an item to a shopping cart.
+- Implemented a modern and colorful User Interface.
+- Responsive website.
+
